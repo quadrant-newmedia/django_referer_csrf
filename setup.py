@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="django_referer_csrf",
-    version="0.0.1",
+    version="0.1.0",
     author="Alex Fischer",
     author_email="alex@quadrant.net",
     description="TODO",
@@ -19,5 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=["Django>=2.2,<4"],
+    install_requires=["Django>=2.2,<4.3"],
 )
